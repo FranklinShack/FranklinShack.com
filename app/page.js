@@ -10,7 +10,7 @@ export default function Home() {
     <main className={styles.main}>
       <Navbar />
       <div className={styles.constructionnotice}>
-        UNDER CONSTRUCTION
+        WORK IN PROGRESS
       </div>
       Feel free to take a look!
       <Intro />

@@ -13,7 +13,7 @@ import ExternalLink from 'public/external-link.svg';
 
 export default function Project(props) {
   return (
-    <Card sx={{width: 0.3, marginTop: 10, backgroundColor: "rgb(0, 12, 6)", color: "rgb(200,200,200)"}}>
+    <Card sx={{width: 0.3, marginTop: 10, backgroundColor: "rgb(0, 33, 51)", color: "rgb(200,200,200)"}}>
         <CardMedia
         sx={{ height: 140 }}
         image={props.image}
