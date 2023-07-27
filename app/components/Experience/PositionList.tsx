@@ -1,0 +1,33 @@
+"use server";
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import styles from '../../page.module.css';
+
+
+const bull = (
+  <Box
+    component="span"
+    sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
+  >
+  </Box>
+);
+
+export default async function PositionList(props) {
+  return (
+    <div>
+        {props.positions}
+        <Typography variant="body1">
+            {props.name}
+        </Typography>
+        <Typography variant="body2" className={styles.projectdesc}>
+            {props.desc}
+        </Typography>
+    </div>
+  );
+}

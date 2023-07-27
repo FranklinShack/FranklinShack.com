@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 50vh;
 }
 
@@ -31,8 +31,7 @@
 
 .projects {
   font-size: 80px;
-  padding-bottom: 50px;
-  padding-left: 5%;
+  padding-left: 9%;
 }
 
 .projectdesc {
@@ -40,7 +39,11 @@
 }
 
 .projectlist {
-  padding-left: 5%;
+  padding-left: 9%;
+}
+
+.timespan {
+  justify-content: right;
 }
 
 .code {
