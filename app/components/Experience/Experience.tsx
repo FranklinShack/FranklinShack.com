@@ -18,19 +18,22 @@ const renderPosition = (position_list) => {
     )
 }
 
+
 export default function Experience(props) {
   return (
-    <Card sx={{width: 0.3, marginTop: 10}}>
+    <Card sx={{width: 0.3, marginTop: 10, backgroundColor: "rgb(0, 33, 51)", color: "rgb(200,200,200)"}}>
         <CardMedia
+        component="img"
         sx={{ height: 140 }}
         image={props.company_image}
         title={props.image_alt}
+        style={{height: "200px", paddingTop: "2%", color: "rbg(200,200,200)"}}
         />
         <CardContent>
             <Typography variant="h5" component="div">
             {props.name}
             </Typography>
-            <Typography sx={{ mb: 1.5 }} color="text.secondary">
+            <Typography sx={{ mb: 1.5 }} color="rgb(150,150,150)">
                 <Grid container justifyContent="space-between">
                     <Grid item>
                         {props.location}

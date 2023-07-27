@@ -12,6 +12,7 @@ export default function Home() {
       <div className={styles.constructionnotice}>
         UNDER CONSTRUCTION
       </div>
+      Feel free to take a look!
       <Intro />
       <ProjectList />
       <ExperienceList />

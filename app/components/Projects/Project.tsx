@@ -18,7 +18,7 @@ const bull = (
 
 export default function Project(props) {
   return (
-    <Card sx={{width: 0.3, marginTop: 10}}>
+    <Card sx={{width: 0.3, marginTop: 10, backgroundColor: "rgb(0, 12, 6)", color: "white"}}>
         <CardMedia
         sx={{ height: 140 }}
         image={props.image}

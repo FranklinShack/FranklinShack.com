@@ -32,6 +32,8 @@ const ExperienceList = () => {
                     ["Fundamentals of Computation", "Proctored exams.  Graded assignments and exams related to Python and basic programming."],
                     ["Introduction to Game Design", "Helped students design and program game projects in Unity using C# and Aseprite."]
                 ]}
+                company_image = "stevens.webp"
+                image_alt = "Stevens Institute of Technology"
             />
 
             <Experience
@@ -44,6 +46,8 @@ const ExperienceList = () => {
                         "Researched access control policies and the best languages to implement them on a large scale. Created a template using HTML, CSS, and JavaScript for a social media platform that would allow users to strictly define rules for who can see and comment on their posts, then implemented an access control system using Prolog and integrated it into a Java servlet."
                     ]
                 ]}
+                company_image = "stevens.webp"
+                image_alt = "Stevens Institute of Technology"
             />
         </div>
     </main>
