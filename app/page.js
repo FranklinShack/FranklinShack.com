@@ -1,19 +1,11 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-
-
+import Navbar from './components/Navbar'
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className="navbar">
-      <ul className="nav-links">
-        <li> <a href="https://www.linkedin.com/in/fshack/">LinkedIn</a></li>
-        <li> <a href="https://github.com/FranklinShack">GitHub</a></li>
-        <li> <a href="mailto:franklin@franklinshack.com">Contact</a></li>
-      </ul>
-      </div>
-
+      <Navbar />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
