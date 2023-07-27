@@ -10,7 +10,7 @@ export default function Home() {
           Franklin Shack
         </h1>
         <p>
-          I'm a fresh CS graduate from Stevens Institute of Technology, seeking an entry level software engineering position.  Feel free to contact me through email, or take a look at my projects below.
+          I&aposm a fresh CS graduate from Stevens Institute of Technology, seeking an entry level software engineering position.  Feel free to contact me through email, or take a look at my projects below.
         </p>
       <div className={styles.grid}>
         <a
