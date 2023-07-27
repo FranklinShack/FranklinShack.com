@@ -29,6 +29,20 @@
   line-height: 22px;
 }
 
+.projects {
+  font-size: 80px;
+  padding-bottom: 50px;
+  padding-left: 5%;
+}
+
+.projectdesc {
+  padding-top: 10px;
+}
+
+.projectlist {
+  padding-left: 5%;
+}
+
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
